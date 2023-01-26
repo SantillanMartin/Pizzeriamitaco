@@ -10,43 +10,73 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-from-below">
-        <div class="container-fluid">
-          <section class="d-flex flex-column align-items-center">
-            <a class="navbar-brand" href="index.html"><img class="logo-pizzeria" src="./images/logo-pizzeria.jpeg" alt="PizzeriaMitaco"></a>
-            <p class="title-font">COCINA & CATERING</p>
-          </section>
-          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse  border border-dark" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-center border border-dark width-navbar">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Acerca de Nosotros</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Nuestros Menus
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
-              </li>
-            </ul>
+  
+    <nav class="navbar navbar-expand-lg  navbar-from-below">
+      <div class="container-fluid">
+        <section class="d-flex flex-column align-items-center color-white">
+          <a class="navbar-brand" href="index.html"><img class="logo-pizzeria" src="./images/logo-pizzeria.jpeg" alt="PizzeriaMitaco"></a>
+          <h1 class="title-font title-weight">COCINA & CATERING</h1>
+        </section>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse border border-dark " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-around align-items-center  width-navbar">
+            <li>
+              <a class="nav--weight nav--weight--color" aria-current="page" href="#">Inicio</a>
+            </li>
             
-          </div>
+            <li class="nav-item dropdown">
+              <a class="dropdown-toggle nav--weight" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Nuestros Menus
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav--weight">Acerca de Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <button href="#" class="header-nav-boton">Contacto</button>
+            </li>
+          </ul>
+          
         </div>
-      </nav>
+      </div>
+      
+    </nav>
+    <main class="main-from-below">
+      <section class="main--contenedor">
+          <div class="d-flex align-items-center">
+            <h2 class="titulo-logo--estilo">
+              Pizzá <span class=" titulo-logo--estilo titulo-logo--estilo--color">Mi Taco</span>
+              </h2>
+              <img class="tamaño-imagen--porcion" src="./images/minipizzas.png" alt="porcion pizza">
+          </div>
+          
+            <div>
+              <p class="parrafo-estilo">
+                Bienvenidos a Pizzá Mi Taco, donde ofrecemos una amplia selección de opciones de menú para todo tipo de eventos y ocasiones especiales.
+                Ofrecemos una amplia gama de opciones culinarias para satisfacer todos los gustos, desde comida tradicional 
+                hasta opciones más innovadoras y exóticas. También ofrecemos servicios personalizados de acuerdo a tus necesidades.
+                </p>
+                
+                <img class="tamaño-imagen--porcion--rotacion" src="./images/minipizzas.png" alt="porcion pizza">
+            </div>
+            
+      
+          </section>
+      <img class="imagen-fondo-tamaño" src="./images/logo-pizzeriaimagen.png" alt="pizza fondo">
+      
+    </main>
+
+  
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

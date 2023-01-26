@@ -1,7 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+:root {
+    --main-bg-color: brown;
+    --main-font:'Poppins', sans-serif;
+  }
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
+    font-family: var(--main-font);
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    background-image:url(./images/background-white.jpg);
+    background-repeat:no-repeat;
+    background-size: 100vw 100vh;
+    
+    
 }
 
 
@@ -16,8 +41,32 @@
     }
 }
 
+@keyframes deCostado{
+    0%{
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: rotate(-45deg)
+    }
+    100%{
+        transform: rotate(45deg);
+    }
+}
+
+/* ANIMACIONES*/
+.main-from-below{
+    animation: fromBelow 2s forwards;
+}
+
 .navbar-from-below{
-    animation: fromBelow 0.7s forwards;
+    animation: fromBelow 0.5s forwards;
+}
+
+/*NAV-BAR*/
+
+nav{
+    background-color: rgba(0, 0, 0, 0.849);
+    
 }
 
 .logo-pizzeria{
@@ -29,3 +78,95 @@
 .width-navbar{
     width: 100%;
 }
+
+.title-font{
+    font-family:var(--main-font);
+    text-shadow: 1px 10px 15px gray;
+}
+
+.title-weight{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.nav--weight{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav--weight--color{
+    color: #d64a13;
+    font-weight:bold;
+    
+}
+
+.color-white{
+    color: white;
+}
+
+
+
+.header-nav-boton {
+    width: 11rem;
+    height: 3rem;
+    border-radius: 0.3rem;
+    border:white solid 2px;
+    color: rgb(0, 0, 0);
+    background-color:#d64a13;
+    font-weight:bold;
+    font-family:var(--main-font);
+    transition: 0.3s;
+    cursor: pointer; 
+}
+.header-nav-boton:active {
+    transform: scale(0.9); 
+}
+
+
+/*SECCION MAIN */
+
+main{
+    
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black;
+    width: 100%;
+}
+
+.titulo-logo--estilo{
+    font-family: 'Aclonica', sans-serif;
+    font-size: 121px;
+    
+
+}
+
+.titulo-logo--estilo--color{
+    color: #d64a13;
+}
+
+.parrafo-estilo{
+    font-size: 1.2rem;
+    width: 70%;
+    margin-left: 10px;
+    
+}
+
+.imagen-fondo-tamaño{
+    width: 35rem;
+    height: 20rem;
+    border: solid black;
+}
+
+.tamaño-imagen--porcion{
+    width: 6rem;
+    height: 6rem;
+    transform: rotate(45deg);
+}
+
+.tamaño-imagen--porcion--rotacion{
+    width: 6rem;
+    transform: rotate(-45deg);
+    margin-left: 15px;
+}
+
