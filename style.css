@@ -211,12 +211,27 @@ main{
 footer{
     width: 100%;
     height: 10rem;
-    background-color: rgb(0, 0, 0);
+    background-color: #d64a13;
     
+}
+
+.footer-redes{
+    border: solid black;
+    justify-content: center;
 }
 
 .logo-pizzeria--tamaño{
     width: 3rem;
+}
+
+.mail-img-tamaño{
+    width: 2rem;
+    height: 1.5rem;
+}
+
+.footer-redes-img--tamaño{
+    width: 2rem;
+    height: 2rem;
 }
 
 /*PREFOOTER*/
@@ -224,8 +239,9 @@ footer{
 .prefooter{
     width: 100%;
     height: auto;
-    background-color: white;
+    
 }
+
 
 .prefooter-lista{
     list-style: none;
@@ -234,4 +250,21 @@ footer{
 
 .prefooter--tamaño--logos{
     width: 8rem;
+}
+
+.trademark-estilo{
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+.color--white{
+    color: white;
+    
+}
+
+.font--weight--200{
+    font-weight: 200;
+}
+
+.footer-contenedor-contacto{
+    border-bottom: white solid 1px;
 }
