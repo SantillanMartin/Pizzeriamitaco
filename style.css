@@ -193,7 +193,7 @@ main{
     width: 3rem;
     height: 3rem;
     position: fixed;
-    bottom: 5px;
+    bottom: 13px;
     right: 8px;
     transition: 0.5s;
     border-radius: 50%;
@@ -222,6 +222,13 @@ footer{
     align-items: center;
     justify-content: space-around;
     
+}
+.footer-contenedor{
+    
+    width: 25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .border--radius--50{
@@ -253,13 +260,14 @@ footer{
 }
 
 .logo-pizzeria--tamaño{
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
 }
 
 .mail-img-tamaño{
     width: 2rem;
     height: 2rem;
+    
 }
 
 .footer-redes-img--tamaño{
@@ -267,23 +275,29 @@ footer{
     height: 2.5rem;
 }
 .footer-contenedor-contacto{
-    background-color: #000000ab;
+    background-color: #000000c9;
     display: flex;
     width: 100%;
     
 }
 
-.color--black{
+.color--white{
     color: rgb(255, 255, 255);
     
-    
-    
+   
 }
 
 .font--weight--200{
     font-weight: lighter;
-    font-size: 1.2rem;
+    font-size: 1rem;
     height: 1rem;
+    
+}
+
+.trademark-estilo{
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: underline;
 }
 
 /*PREFOOTER*/
@@ -303,11 +317,4 @@ footer{
 .prefooter--tamaño--logos{
     width: 8rem;
 }
-
-.trademark-estilo{
-    font-weight: bolder;
-    font-size: 1.1rem;
-    text-decoration: underline;
-}
-
 
