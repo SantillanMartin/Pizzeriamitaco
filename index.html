@@ -11,43 +11,43 @@
 </head>
 <body>
   
-    <nav class="navbar navbar-expand-lg ">
-      <div class="container-fluid">
-        <section class="d-flex flex-column align-items-center color-white">
+    <nav class="nav--contenedor--flex flex--550px">
+      
+        <section class="nav--logo color-white">
           <a class="navbar-brand" href="index.html"><img class="logo-pizzeria" src="./images/logo-pizzeria.jpeg" alt="PizzeriaMitaco"></a>
           <h1 class="title-font title-weight nav--weight">COCINA & CATERING</h1>
         </section>
-        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-evenly align-items-center  width-navbar">
-            <li>
-              <a class="nav--weight nav--weight--color" aria-current="page" href="#">Inicio</a>
-            </li>
-            
-            <li class="nav-item dropdown">
-              <a class="dropdown-toggle nav--weight" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Nuestros Menus
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <section class="header__nav">
+          <label for="btn-hamburguesa" class="header__label">
+              <img src="./images/menu.png" alt="menu hanburguesa" class="header__imagen__hamburguesa">
+          </label>
+          <input type="checkbox" id="btn-hamburguesa" class="header__hamburguesa">   
+              <ul class="header__nav__lista">
+                
+                  <li>
+                    <a class="nav--weight nav--weight--color" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav--weight" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Nuestros Menus
+                    </a>
+                    
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav--weight">Acerca de Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <button href="#" class="header-nav-boton nav--weight">Contacto</button>
+                  </li>
+                </ul>
+                  
               </ul>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav--weight">Acerca de Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <button href="#" class="header-nav-boton nav--weight">Contacto</button>
-            </li>
-          </ul>
-          
-        </div>
-      </div>
+      
+          </section>
+        
+        
+      
       
     </nav>
     <main class="main-from-below">
