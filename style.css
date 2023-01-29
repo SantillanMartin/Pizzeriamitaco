@@ -296,8 +296,9 @@ footer{
 
 .trademark-estilo{
     font-weight: 400;
-    font-size: 1rem;
-    text-decoration: underline;
+    font-size: .95rem;
+    color: rgb(0, 0, 0);
+    
 }
 
 /*PREFOOTER*/
@@ -337,6 +338,12 @@ footer{
     }
 }
 
+@media(max-width:992px){
+    main{
+        height: 30rem;
+    }
+}
+
 @media(max-width:900px){
     .titulo-logo--estilo{
         font-size: 75px;
@@ -346,6 +353,7 @@ footer{
         width: 4rem;
         height: 4rem;
     }
+    
 }
 
 @media(max-width:670px){
@@ -354,6 +362,12 @@ footer{
     }
     .main--contenedor--titulo-img{
         flex-direction: column;
+    }
+    .footer-contenedor-contacto{
+        flex-wrap: wrap;
+    }
+    footer{
+        height: 20rem;
     }
 }
 
@@ -380,5 +394,27 @@ footer{
     }
     .parrafo-estilo{
         margin-left: 0;
+    }
+    .footer-contenedor{
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width:450px){
+    .titulo-logo--estilo{
+        font-size: 3rem;
+    }
+    .footer-contenedor{
+        width: 100%;
+    }
+    .parrafo-estilo{
+        font-size: 1rem;
+    }
+    .font--weight--200{
+        font-size: 0.8rem;
+    }
+    .trademark-estilo{
+        font-size: 0.7rem;
+        font-weight: bold;
     }
 }
