@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestros Menus</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="background-menus">
+    <nav class="nav--contenedor--flex flex--550px">
+      
+        <section class="nav--logo">
+          <a class="navbar-brand" href="index.html"><img class="logo-pizzeria" src="./images/logo-pizzeria.jpeg" alt="PizzeriaMitaco"></a>
+          <h1 class="title-font title-weight nav--weight color-darkgreen">COCINA & CATERING</h1>
+        </section>
+        <section class="header__nav">
+          <label for="btn-hamburguesa" class="header__label">
+              <img src="./images/menu.png" alt="menu hanburguesa" class="header__imagen__hamburguesa">
+          </label>
+          <input type="checkbox" id="btn-hamburguesa" class="header__hamburguesa">   
+              <ul class="header__nav__lista ">
+                
+                  <li>
+                    <a class="nav--weight color-secondary-bold" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav--weight color-darkgreen" href="./menus.html" role="button"  aria-expanded="false">
+                      Nuestros Menús
+                    </a>
+                    
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav--weight color-darkgreen">Acerca de Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <button href="#" class="header-nav-boton nav--weight color-button-menus">Contacto</button>
+                  </li>
+                </ul>
+                  
+              </ul>
+      
+          </section>
+        </nav>
+          <main class="main-menus">
+            <section class="main-menus--titulo--descripcion">
+                <h1 class="main-titulo-principal">¿Que ofrecemos?</h1>
+                <p class="main-menus-parrafo">En Pizá Mi Taco brindamos servicio para eventos formales como informales, 
+                    aqui encontraran entre las opciones de menús: Pizza Party, Pernil Party & Pasta Party.
+                    Ademas ofrecemos servicio puerta a puerta, que puede incluir si lo desea tanto mozos y cocineros por
+                    un costo adicional.
+                </p>
+            </section>
+            
+            
+                <div id="carouselExample" class="carousel slide width-carousel">
+                    <div class="carousel-inner ">
+                      <div class="carousel-item active">
+                        <img src="./images/cocktails-948353_1920.jpg" class="d-block w-100 tamaño-imagen-carousel" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/comidas/pernil.jpeg" class="d-block w-100 tamaño-imagen-carousel" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/italy-3114949_1920.jpg" class="d-block w-100 tamaño-imagen-carousel" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            
+            
+          </main>
+          
+        
+        
+      
+      
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

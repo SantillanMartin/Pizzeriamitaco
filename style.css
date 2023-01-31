@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
 :root {
     --main-bg-color: brown;
     --main-font:'Poppins', sans-serif;
@@ -23,7 +24,7 @@ a{
 }
 
 body{
-    background-image:url(./images/chili-fondo.jpg);
+    /*background-image:url(./images/chili-fondo.jpg);*/
     background-repeat:no-repeat;
     background-size: 100vw 100vh;
     
@@ -75,6 +76,27 @@ body{
 }
 
 /*NAV-BAR*/
+.color--white{
+    color: rgb(255, 255, 255);
+}
+
+.color-secondary-bold{
+    color: #565f07;
+    
+}
+
+.color-button-menus{
+    color: #1e2005;
+}
+
+
+.color-darkgreen{
+    color: #36392D;
+}
+
+.nav-background-inicio{
+    background-image:url(./images/chili-fondo.jpg);
+}
 .nav--contenedor--flex{
     display: flex;
     justify-content: space-around;
@@ -97,6 +119,7 @@ body{
 .header__nav__lista{
     display: flex;
     list-style: none;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -138,7 +161,7 @@ body{
 .nav--weight{
     font-size: 1.2rem;
     font-family: 'Libre Franklin', sans-serif;
-    color: rgb(255, 255, 255);
+    /*color: rgb(255, 255, 255);*/
 }
 
 .nav--weight--color{
@@ -173,7 +196,7 @@ body{
 
 
 
-main{
+.main-inicio{
     
     height: 48.1rem;
     display: flex;
@@ -250,6 +273,33 @@ main{
     transform: scale(0.90);
 }
 
+/*PAGINA DE MENUS*/
+
+.background-menus{
+    background-color: #B7BCA9;
+}
+
+.tamaño-imagen-carousel{
+    
+    height: 30rem;
+}
+
+.width-carousel{
+    width: 80%;
+}
+
+.main-titulo-principal{
+    font-weight: 200;
+}
+
+.main-menus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid black;
+    height: 45rem;
+}
 
 /*FOOTER*/
 
