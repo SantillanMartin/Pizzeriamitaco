@@ -267,7 +267,7 @@ body{
 
 .logo-whatsapp:hover{
     cursor: pointer;
-    box-shadow: 1px 1px 15px rgb(145, 140, 140);
+    box-shadow: 1px 1px 15px #918c8c;
 }
 .logo-whatsapp:active{
     transform: scale(0.90);
@@ -290,15 +290,70 @@ body{
 
 .main-titulo-principal{
     font-weight: 200;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-menus--titulo--descripcion{
+    
+    display: flex;
+    align-items: center;
+    height: 10rem;
+}
+
+.main-menus-parrafo{
+    
+    width: 60rem;
+    text-align: justify;
+
+    
 }
 
 .main-menus{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     border: solid black;
-    height: 45rem;
+    height: 48rem;
+    background-image: url(./wave.svg);
+    background-repeat: no-repeat;
+}
+
+.main-galeria{
+    border: solid black;
+    display: grid;
+    width: 80%;
+    
+    
+}
+
+.contenedor-overflow{
+    overflow: hidden;
+    width: 15rem;
+    height: 20rem;
+}
+
+.imagen-tamaño-arrollado{
+    width: 15rem;
+    height: 20rem;
+    transition: 0.5s;
+    border-radius: 0.5rem;
+    
+}
+
+.imagen-tamaño-pernil{
+    width: 15rem;
+    height: 15rem;
+    transition: 0.5s;
+    border-radius: 0.2rem;
+}
+
+.hover--imagenes:hover{
+    transform: scale(1.3);
+    opacity: 0.9;
 }
 
 /*FOOTER*/
@@ -577,3 +632,5 @@ footer{
         font-weight: bold;
     }
 }
+
+
