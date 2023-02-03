@@ -14,7 +14,7 @@
       
         <section class="nav--logo">
           <a class="navbar-brand" href="index.html"><img class="logo-pizzeria" src="./images/logo-pizzeria.jpeg" alt="PizzeriaMitaco"></a>
-          <h1 class="title-font title-weight nav--weight color-darkgreen">COCINA & CATERING</h1>
+          <h1 class="title-font title-weight nav--weight color-redtomato">COCINA & CATERING</h1>
         </section>
         <section class="header__nav">
           <label for="btn-hamburguesa" class="header__label">
@@ -24,17 +24,17 @@
               <ul class="header__nav__lista ">
                 
                   <li>
-                    <a class="nav--weight color-secondary-bold" aria-current="page" href="./index.html">Inicio</a>
+                    <a class="nav--weight color-darkgreen" aria-current="page" href="./index.html">Inicio</a>
                   </li>
                   
                   <li class="nav-item dropdown">
-                    <a class="nav--weight color-darkgreen" href="./menus.html" role="button"  aria-expanded="false">
+                    <a class="nav--weight color-redtomato" href="./menus.html" role="button"  aria-expanded="false">
                       Nuestros Menús
                     </a>
                     
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav--weight color-darkgreen">Acerca de Nosotros</a>
+                    <a href="#" class="nav--weight color-redtomato">Acerca de Nosotros</a>
                   </li>
                   <li class="nav-item">
                     <button href="#" class="header-nav-boton nav--weight color-button-menus">Contacto</button>
@@ -45,16 +45,22 @@
       
           </section>
         </nav>
-          <main class="main-menus">
-            <section class="main-menus--titulo--descripcion">
-              
-                <h1 class="main-titulo-principal">¿Que ofrecemos?</h1>
-                <p class="main-menus-parrafo">En Pizzá Mi Taco brindamos servicio para eventos formales como informales, 
-                    aqui encontraran entre las opciones de menús: Pizza Party, Pernil Party & Pasta Party.
-                    Ademas ofrecemos servicio puerta a puerta, que puede incluir si lo desea tanto mozos y cocineros por
-                    un costo adicional.
-                </p>
-            </section>
+          <main class="main-menus main-from-below">
+            
+              <section class="main-menus--titulo--descripcion">
+                  <div class="contenedor--titulo--descripcion">
+                    <img src="./images/pizzita-icon.png" class="minipizza-icono-tamaño" alt="pizzita pizza mi taco">
+                    <h1 class="main-titulo-principal">¿Que ofrecemos?</h1>
+                    <p class="main-menus-parrafo">En <span class="color-redtomato">Pizzá Mi Taco</span>  brindamos servicio para eventos formales como informales, 
+                      aqui encontraran entre las opciones de menús: Pizza Party, Pernil Party & Pasta Party.
+                      Ademas ofrecemos servicio puerta a puerta, que puede incluir si lo desea tanto mozos y cocineros por
+                      un costo adicional.
+                    </p>
+                  </div>   
+              </section>
+            
+            
+            
             <section class="main-galeria">
               <div class="d-flex justify-content-evenly align-items-center contenedor-grupo-imagenes">
                 <div class="contenedor-overflow-8 box-shadow-grey">
@@ -97,13 +103,13 @@
                   <img src="./images/comidas/pizza-panceta.jpg" class="imagen-tamaño-panceta hover--imagenes estilo-imagenes-galeria" alt="mesa pizza mi taco">
                 </div>
               </div>
-              
-              
-              
-              
-              
-              
-
+      
+            </section>
+            <section class="main-menus-interactivos">
+              <button id="boton-menu-pizza">Pizza Party</button>
+              <button id="boton-menu-pernil">Pernil Party</button>
+              <button id="boton-menu-pasta">Pasta Party</button>
+              <button id="boton-menu-puerta">Puerta a Puerta</button>
             </section>
             
             
