@@ -45,9 +45,9 @@
       
           </section>
         </nav>
-          <main class="main-menus main-from-below">
+          <main class="main-menus ">
             
-              <section class="main-menus--titulo--descripcion">
+              <section class="main-menus--titulo--descripcion main-from-below">
                   <div class="contenedor--titulo--descripcion">
                     <img src="./images/pizzita-icon.png" class="minipizza-icono-tamaño" alt="pizzita pizza mi taco">
                     <h1 class="main-titulo-principal">¿Que ofrecemos?</h1>
@@ -63,12 +63,12 @@
             
             <section class="main-galeria">
               <div class="d-flex justify-content-evenly align-items-center contenedor-grupo-imagenes">
-                <div class="contenedor-overflow-8 box-shadow-grey">
-                  <img src="./images/comidas/pernil.jpg" class="imagen-tamaño-pernil2 hover--imagenes estilo-imagenes-galeria" alt="arrollados pizza mi taco">
+                <div class="contenedor-overflow-8 box-shadow-grey ">
+                  <img src="./images/comidas/pernil.jpg" class="imagen-tamaño-pernil2 hover--imagenes estilo-imagenes-galeria " alt="arrollados pizza mi taco">
                 </div>
                 <div class="contenedor-flex-subrupo-img-1">
-                  <div class="contenedor-overflow-3 box-shadow-grey">
-                    <img src="./images/comidas/salsas.jpeg" class="imagen-tamaño-salsas hover--imagenes estilo-imagenes-galeria" alt="salsas pizza mi taco">
+                  <div class="contenedor-overflow-3 box-shadow-grey ">
+                    <img src="./images/comidas/salsas.jpeg" class="imagen-tamaño-salsas hover--imagenes estilo-imagenes-galeria " alt="salsas pizza mi taco">
                   </div>
                   <div class="contenedor-overflow-4 box-shadow-grey">
                     <img src="./images/comidas/pizza-rucula.jpg" class="imagen-tamaño-rucula hover--imagenes estilo-imagenes-galeria" alt="pizza rucula pizza mi taco">
@@ -105,12 +105,24 @@
               </div>
       
             </section>
-            <section class="main-menus-interactivos">
-              <button id="boton-menu-pizza">Pizza Party</button>
-              <button id="boton-menu-pernil">Pernil Party</button>
-              <button id="boton-menu-pasta">Pasta Party</button>
-              <button id="boton-menu-puerta">Puerta a Puerta</button>
+            <section class="subtitulo-menus-descripcion">
+              <div class="linea-divisora"></div>
+              <div class="contenedor--iconomenu-titulo">
+                
+                <img src="./images/menu-icon.png" class="menu-icono-tamaño" alt="menu pizza mi taco">
+                <h2 class="main-titulo-principal margin--top--bottom">Menús</h2>
+              </div>
+              
+              <p class="main-menus-parrafo width--parrafo">Estas son las distintas opciones que tenemos disponibles para ofrecerte<p>
             </section>
+            
+            <section class="main-menus-interactivos">
+              <button id="boton-menu-pizza" class="boton-menus-estilo">Pizza Party</button>
+              <button id="boton-menu-pernil" class="boton-menus-estilo">Pernil Party</button>
+              <button id="boton-menu-pasta" class="boton-menus-estilo">Pasta Party</button>
+              <button id="boton-menu-puerta" class="boton-menus-estilo">Puerta a Puerta</button>
+            </section>
+            <section id="main-contenedor-diferentes-menus"></section>
             
             
             
@@ -124,5 +136,6 @@
       
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 </html>

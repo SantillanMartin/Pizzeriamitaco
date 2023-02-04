@@ -343,7 +343,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 130rem;
+    height: auto;
     
 }
 
@@ -492,6 +492,58 @@ body{
     
 }
 
+.subtitulo-menus-descripcion{
+    margin-top:5rem;
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.margin--top--bottom{
+    margin: 2rem 0;
+}
+
+.linea-divisora{
+    border-bottom: 4px solid #335c11;
+    width: 50rem;
+    border-radius: 0.7rem;
+    
+}
+
+.width--parrafo{
+    width: 20rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+.contenedor--iconomenu-titulo{
+    margin-top: 1rem;
+    width: 15rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-icono-tamaño{
+    width: 4rem;
+    height: 4rem;
+}
+
+.main-menus-interactivos{
+    
+    width: 60rem;
+    border: solid black;
+}
+
+.menu-party-pizza{
+    width: 50rem;
+    height: 40rem;
+    border: solid black;
+}
 
 
 
