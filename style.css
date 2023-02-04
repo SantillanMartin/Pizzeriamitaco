@@ -345,6 +345,7 @@ body{
     justify-content: space-between;
     height: auto;
     
+    
 }
 
 
@@ -356,10 +357,11 @@ body{
     flex-wrap: wrap;
     justify-content: space-evenly;
     
-    
-    
+
     
 }
+
+
 
 .contenedor-grupo-imagenes{
     width: 90%;
@@ -490,6 +492,7 @@ body{
     transform: scale(1.7);
     filter: grayscale(0.9);
     
+    
 }
 
 .subtitulo-menus-descripcion{
@@ -534,15 +537,120 @@ body{
 }
 
 .main-menus-interactivos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40rem;
     
-    width: 60rem;
-    border: solid black;
+    
 }
 
 .menu-party-pizza{
     width: 50rem;
     height: 40rem;
     border: solid black;
+}
+
+
+.tamaño-img-nav-sub{
+    width: 2rem;
+    height: 2rem;
+    
+}
+
+.boton-menus-estilo{
+    width: 8rem;
+    height: 2.5rem;
+    background-color:#275504;
+    color: white;
+    font-weight: 300;
+    border: none;
+    border-radius: 0.3rem;
+    box-shadow: -1px 1px 8px rgb(185, 178, 178);
+    font-family:'DM Sans', sans-serif;
+    transition: 0.3s;
+}
+
+.boton-menus-estilo:hover{
+    box-shadow: 0px 8px 10px rgba(117, 114, 114, 0.548);
+    background-color: #ab0505de;
+}
+
+
+.mostrar-menu-pizzas-titulos{
+    margin-top: 1rem;
+    display: flex;
+    width: 80rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.creador-bordes-titulo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black 1px;
+    box-shadow: 0px 1px 5px rgb(216, 209, 209);
+}
+
+.height-parrafo-pizzaParty{
+    height: 10rem;
+}
+
+.height-parrafo-pizzaParty-sabores{
+    height: 35rem;
+}
+
+.height-parrafo-precios{
+    height: 5rem;
+}
+
+.parrafo-disclaimer{
+    width: 100%;
+    text-align: justify;
+    font-style: italic;
+    color: rgb(61, 58, 58);
+}
+
+.creador-bordes-titulo p{
+    text-align: justify;
+    width: 90%;
+}
+
+.contenedor-entrada-infantil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.contenedor-opciones-infantil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    
+}
+
+.contenedor-opciones-infantil p{
+    text-align: center;
+}
+
+.font-size-precio-menores{
+    font-size: 1.3rem;
+}
+
+.tamaño-img-comida-niños{
+    width: 3rem;
+}
+
+.width-img-opcion-infantil{
+    
+    width: 12rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 
