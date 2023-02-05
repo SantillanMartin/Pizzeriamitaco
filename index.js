@@ -4,8 +4,9 @@ botonMostrarMenuPizza.onclick=()=>{
     
     let mostrarDisplay=document.getElementById("mostrar-display-block");
     mostrarDisplay.style.display="flex";
+    mostrarDisplay.style.flexDirection="column";
     /*mostrarMenuPizzaParty();*/
-    window.scroll(0,5000);
+    window.scroll(0,2500);
 }
 
 

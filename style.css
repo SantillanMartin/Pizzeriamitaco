@@ -302,7 +302,7 @@ body{
 .main-titulo-principal{
     font-weight: 600;
     color:#AB0505;;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Aclonica', sans-serif;
 }
 
 .main-menus--titulo--descripcion{
@@ -558,15 +558,15 @@ body{
 }
 
 .boton-menus-estilo{
-    width: 8rem;
+    width: 8.5rem;
     height: 2.5rem;
     background-color:#275504;
     color: white;
     font-weight: 300;
     border: none;
-    border-radius: 0.3rem;
-    box-shadow: -1px 1px 8px rgb(185, 178, 178);
-    font-family:'DM Sans', sans-serif;
+    border-radius: 1rem;
+    box-shadow: -1px 1px 10px rgb(185, 178, 178);
+    font-family:'Poppins', sans-serif;
     transition: 0.3s;
 }
 
@@ -589,8 +589,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid black 1px;
-    box-shadow: 0px 1px 5px rgb(216, 209, 209);
+    
+    /*box-shadow: 0px 1px 5px rgb(216, 209, 209);*/
 }
 
 .height-parrafo-pizzaParty{
@@ -607,7 +607,7 @@ body{
 
 .parrafo-disclaimer{
     width: 100%;
-    text-align: justify;
+    text-align: center;
     font-style: italic;
     color: rgb(61, 58, 58);
 }
@@ -654,6 +654,32 @@ body{
 }
 
 
+.background-pizzaparty{
+    background-image: url(./images/blackboard-5894904_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 1px 10px rgb(105, 102, 102);
+}
+
+.margin-top-menus-pizzaparty{
+    margin-top: 5rem;
+    
+}
+
+.opciones-menus-precio{
+    font-weight: bold;
+    color: #AB0505;
+    font-family: 'Aclonica';
+}
+
+.weight-opciones-pizzaparty{
+    font-weight: 300;
+}
+
+.precio-pizzaparty{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
 
 /*FOOTER*/
 
