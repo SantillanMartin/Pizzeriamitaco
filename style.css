@@ -340,6 +340,13 @@ body{
     
 }
 
+.main-menus-parrafo-opciones{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.16rem;
+    width: 90%;
+}
+
 .main-menus{
     display: flex;
     flex-direction: column;
@@ -358,7 +365,7 @@ body{
     width: 82%;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
+    margin-top: 2rem;
 
     
 }
@@ -683,6 +690,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0px 1px 10px rgb(105, 102, 102);
+    height: 75rem;
 }
 
 .margin-top-menus-pizzaparty{
@@ -777,8 +785,11 @@ body{
     color:#eedfdf;
     font-size: 1.1rem;
     border-radius: 0.5rem;
-    text-align: center;
     font-family: 'Aclonica',sans-serif;
+}
+
+.contenedor--postre{
+    margin-top: 3rem;
 }
 
 .font--montserrat{
@@ -905,11 +916,53 @@ footer{
 
 /*MEDIA QUERIES*/
 
+@media(max-width:1700px){
+    .contenedor-grupo-imagenes{
+        flex-wrap: wrap;
+    }
+    .imagen-tamaño-arrollado, .contenedor-overflow-1,.contenedor-flex-subgrupo-img-2{
+        margin-bottom: 3rem;
+    }
+    .main-galeria{
+        width: 95%;
+    }
+    
+}
+
+@media(max-width:1482px){
+    .contenedor-flex-subgrupo-img-3{
+        height: 45rem;
+    }
+}
+
+
 @media(max-width:1440px){
     .nav--logo{
         width: 20%;
     }
+    .height-parrafo-pizzaParty{
+        width: 100%;
+    }
+    .mostrar-menu-pizzas-titulos{
+        width: 100%;
+    }
 }
+
+@media(max-width:1300px){
+    .contenedor--titulo--descripcion{
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+    .main-menus-parrafo{
+        width: 90%;
+        text-align: center;
+        height: 20rem;
+        background-color: rgba(255, 255, 255, 0.671);
+        border-radius: 0.4rem;
+    }
+}
+
+
 
 @media(max-width:1005px){
     .titulo-logo--estilo{
@@ -924,6 +977,49 @@ footer{
         flex-direction: column;
         align-items: center;
     }
+    .linea-divisora{
+        width: 70%;
+    }
+    .imagen-tamaño-pernil2, .contenedor-overflow-8{
+        width: 16rem;
+        height: 30rem;
+    }
+    .imagen-tamaño-salsas, .contenedor-overflow-3{
+        width: 25rem;
+        height: 17rem;
+    }
+    .imagen-tamaño-rucula, .contenedor-overflow-4{
+        width: 24rem;
+        height: 18rem;
+    }
+    .imagen-tamaño-arrollado, .contenedor-overflow-1{
+        width: 21rem;
+        height: 27rem;
+    }
+    .imagen-tamaño-pernil1, .contenedor-overflow-5{
+        width: 20rem;
+        height: 35rem;
+    }
+    .imagen-tamaño-tomate, .contenedor-overflow-2{
+        width: 23rem;
+        height: 20rem;
+    }
+    .imagen-tamaño-servicio, .contenedor-overflow-7{
+        width: 24rem;
+        height: 19rem;
+    }
+    .imagen-tamaño-mesa, .contenedor-overflow-6{
+        width: 25rem;
+        height: 18rem;
+    }
+    .imagen-tamaño-panceta, .contenedor-overflow-9{
+        width: 25rem;
+        height: 18rem;
+    }
+    .contenedor-flex-subgrupo-img-2{
+        justify-content: space-evenly;
+    }
+
 }
 
 @media(max-width:992px){
@@ -1010,6 +1106,19 @@ footer{
     footer{
         height: 20rem;
     }
+    .main-menus-interactivos{
+        width: 90%;
+        height: 10rem;
+        flex-wrap: wrap;
+        
+    }
+    .boton-menus-estilo{
+        margin: 0 0.5rem;
+    }
+    .main-menus--titulo--descripcion{
+        display: flex;
+        
+    }
 }
 
 @media(max-width:550px){
@@ -1050,6 +1159,51 @@ footer{
     .logo-pizzeria{
         width: 4rem;
         height: 4rem;
+    }
+    .main-menus-parrafo{
+        font-size: 1rem;
+    }
+    .main-titulo-principal{
+        font-size: 1.2rem;
+    }
+    .minipizza-icono-tamaño{
+        width: 2rem;
+    }
+    .imagen-tamaño-pernil2, .contenedor-overflow-8{
+        width: 15rem;
+        height: 20rem;
+    }
+    .imagen-tamaño-salsas, .contenedor-overflow-3{
+        width: 22rem;
+        height: 14rem;
+    }
+    .imagen-tamaño-rucula, .contenedor-overflow-4{
+        width: 21rem;
+        height: 15rem;
+    }
+    .imagen-tamaño-arrollado, .contenedor-overflow-1{
+        width: 15rem;
+        height: 22rem;
+    }
+    .imagen-tamaño-pernil1, .contenedor-overflow-5{
+        width: 15rem;
+        height: 23rem;
+    }
+    .imagen-tamaño-tomate, .contenedor-overflow-2{
+        width: 19rem;
+        height: 15rem;
+    }
+    .imagen-tamaño-servicio, .contenedor-overflow-7{
+        width: 20rem;
+        height: 14rem;
+    }
+    .imagen-tamaño-mesa, .contenedor-overflow-6{
+        width: 21rem;
+        height: 16rem;
+    }
+    .imagen-tamaño-panceta, .contenedor-overflow-9{
+        width: 20rem;
+        height: 16rem;
     }
     
 }
