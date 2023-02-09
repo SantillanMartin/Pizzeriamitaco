@@ -1,12 +1,29 @@
 let botonMostrarMenuPizza=document.getElementById('boton-menu-pizza');
 let contenedorDiferentesMenus=document.getElementById('main-contenedor-diferentes-menus');
+let botonMostrarMenuPernil=document.getElementById('boton-menu-pernil');
+let mostrarDisplay=document.getElementById("mostrar-display-pizza-block");
+let mostrarDisplayPernil=document.getElementById("mostrar-display-pernil-flex");
+
+/*BOTONES*/
+
 botonMostrarMenuPizza.onclick=()=>{
     
-    let mostrarDisplay=document.getElementById("mostrar-display-block");
+    
     mostrarDisplay.style.display="flex";
     mostrarDisplay.style.flexDirection="column";
-    /*mostrarMenuPizzaParty();*/
-    window.scroll(0,2500);
+    mostrarDisplayPernil.style.display="none";
+    
+}
+
+botonMostrarMenuPernil.onclick=()=>{
+    mostrarDisplay.style.display="none";
+    mostrarDisplayPernil.style.display="flex";
+    mostrarDisplayPernil.style.flexDirection="column";
+    window.scroll(0,2700);
+    if (window.matchMedia("(max-width: 767px)").matches) {
+        window.scroll(0,4500);
+      }
+    
 }
 
 
