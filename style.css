@@ -289,6 +289,29 @@ body{
 }
 
 /*PAGINA DE MENUS*/
+.background-pizzaparty{
+    margin: auto;
+    background-color: #120c0d;
+    box-shadow: 0px 1px 5px rgb(161, 159, 159);
+    height: 75rem;
+    width: 90%;
+    border-radius: 0.3rem;
+}
+
+.background--pernilparty{
+    height: 50rem;
+    width: 60rem;
+    margin: auto;
+    background-color: #120c0d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 1px 5px rgb(161, 159, 159);
+    border-radius: 0.3rem;
+}
+
+
 
 .background-menus{
     background-color: #e9e9e9;
@@ -299,9 +322,7 @@ body{
     width: 50%;
     justify-content: center;
     align-items: center;
-
 }
-
 
 .minipizza-icono-tamaño{
     width: 4rem;
@@ -322,18 +343,14 @@ body{
     width: 100%;
     height: 30rem;
     box-shadow: -1px 1px 5px rgb(136, 134, 134);
-    
-    
 }
 
 .contenedor--titulo--descripcion{
-   
     width: 100%;
     height: 14rem;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;   
 }
 
 .main-menus-parrafo{
@@ -343,9 +360,6 @@ body{
     color:black;
     font-weight: 400;
     font-size: 1.16rem;
-    
-    
-    
 }
 
 .main-menus-parrafo-opciones{
@@ -360,32 +374,21 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: auto;
-    
-    
+    height: auto;    
 }
 
-
-
 .main-galeria{
-    
     display: flex;
     width: 82%;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 2rem;
-
-    
+    margin-top: 2rem;   
 }
-
-
-
 .contenedor-grupo-imagenes{
     width: 90%;
 }
 
 .contenedor-flex-subrupo-img-1{
-    
     height: 50rem;
     display: flex;
     flex-direction: column;
@@ -394,7 +397,6 @@ body{
 }
 
 .contenedor-flex-subgrupo-img-2{
-    
     height: 48rem;
     display: flex;
     flex-direction: column;
@@ -403,7 +405,6 @@ body{
 }
 
 .contenedor-flex-subgrupo-img-3{
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -418,10 +419,6 @@ body{
     height: 32rem;
     border-radius: 0.5rem;
     transition: 1s;
-    
-
-
-     
 }
 
 .imagen-tamaño-tomate,.contenedor-overflow-2{
@@ -430,8 +427,6 @@ body{
     height: 25rem;
     border-radius: 0.5rem;
     transition: 1s;
-    
-
 }
 
 .imagen-tamaño-salsas,.contenedor-overflow-3{
@@ -440,7 +435,6 @@ body{
     height: 20rem;
     border-radius: 0.5rem;
     transition: 1s;
-    
 }
 
 .imagen-tamaño-rucula,.contenedor-overflow-4{
@@ -449,7 +443,6 @@ body{
     height: 20rem;
     border-radius: 0.5rem;
     transition: 1s;
-    
 }
 
 .imagen-tamaño-pernil1,.contenedor-overflow-5{
@@ -458,8 +451,6 @@ body{
     height: 40rem;
     border-radius: 0.5rem;
     transition: 1s;
-    
-    
 }
 
 .imagen-tamaño-mesa,.contenedor-overflow-6{
@@ -468,7 +459,6 @@ body{
     height: 20rem;
     border-radius: 0.5rem;
     transition: 1s;
-    
 }
 
 .imagen-tamaño-servicio,.contenedor-overflow-7{
@@ -477,11 +467,7 @@ body{
     height: 20rem;
     border-radius: 0.5rem;
     transition: 1s;
-    
 }
-
-
-
 
 .imagen-tamaño-pernil2,.contenedor-overflow-8{
     overflow: hidden;
@@ -489,7 +475,6 @@ body{
     height: 38rem;
     border-radius: 0.5rem;
     transition: 1s;
-    
 }
 
 .imagen-tamaño-panceta,.contenedor-overflow-9{
@@ -498,7 +483,6 @@ body{
     height: 20rem;
     border-radius: 0.5rem;
     transition: 1s;
-    
 }
 
 .box-shadow-grey{
@@ -508,8 +492,6 @@ body{
 .hover--imagenes:hover{
     transform: scale(1.7);
     filter: grayscale(0.9);
-    
-    
 }
 
 .subtitulo-menus-descripcion{
@@ -520,7 +502,6 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-
 }
 
 .margin--top--bottom{
@@ -531,7 +512,6 @@ body{
     border-bottom: 4px solid #335c11;
     width: 50rem;
     border-radius: 0.7rem;
-    
 }
 
 .width--parrafo{
@@ -548,6 +528,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .menu-icono-tamaño{
     width: 4rem;
     height: 4rem;
@@ -557,8 +538,6 @@ body{
     display: flex;
     justify-content: space-evenly;
     width: 40rem;
-    
-    
 }
 
 .menu-party-pizza{
@@ -570,8 +549,7 @@ body{
 
 .tamaño-img-nav-sub{
     width: 2rem;
-    height: 2rem;
-    
+    height: 2rem;  
 }
 
 .boton-menus-estilo{
@@ -599,7 +577,6 @@ body{
     width: 100%;
     justify-content: center;
     align-items: center;
-    
 }
 
 .creador-bordes-titulo{
@@ -607,29 +584,23 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
-    /*box-shadow: 0px 1px 5px rgb(216, 209, 209);*/
 }
 
 .height-parrafo-pizzaParty{
     height: 10rem;
     height: 57rem;
-    display: flex;
-    
+    display: flex;   
 }
 
 .height-parrafo-pizzaParty--contenedor{
-    height: 70rem;
+    height: 75rem;
 }
 
 .height-parrafo-pizzaParty-sabores{
     height: 70%;
-    
 }
 
 .height--titulo--entrada{
-    
     height: 30%;
 }
 
@@ -644,6 +615,7 @@ body{
     font-weight: 500;
     color: rgb(90, 90, 90);
     font-family: 'Asap', sans-serif;
+    font-size: 1.7rem;
 }
 
 .widht--80{
@@ -696,15 +668,7 @@ body{
 }
 
 
-.background-pizzaparty{
-    margin: auto;
-    background-image: url(./images/blackboard-5894904_1920.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: 0px 1px 10px rgb(105, 102, 102);
-    height: 75rem;
-    width: 90%;
-}
+
 
 .margin-top-menus-pizzaparty{
     margin-top: 1rem;
@@ -849,20 +813,7 @@ body{
 }
 
 
-.background--pernilparty{
-    height: 50rem;
-    width: 60rem;
-    margin: auto;
-    background-image: url(./images/blackboard-5894904_1920.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    box-shadow: 0px 1px 10px rgb(105, 102, 102);
-    
-}
+
 
 .contenedor--lista--entrada--pernil{
     
@@ -876,6 +827,19 @@ body{
 
 .border--solid{
     border: solid white;
+}
+
+/*DENTRO DE MENUS -- PASTA--PARTY*/
+
+.display-pasta-none{
+    display: none;
+    width: 100%;
+}
+
+.contenedor--pasta--party{
+    justify-content: space-around;
+    width: 60rem;
+    
 }
 
 
@@ -1197,6 +1161,9 @@ footer{
     .font--montserrat li{
         text-align: center;
     }
+    .parrafo-disclaimer{
+        font-size: 1.1rem;
+    }
 }
 
 @media(max-width:670px){
@@ -1284,39 +1251,39 @@ footer{
         width: 2rem;
     }
     .imagen-tamaño-pernil2, .contenedor-overflow-8{
-        width: 15rem;
+        width: 17rem;
         height: 20rem;
     }
     .imagen-tamaño-salsas, .contenedor-overflow-3{
-        width: 22rem;
+        width: 17rem;
         height: 14rem;
     }
     .imagen-tamaño-rucula, .contenedor-overflow-4{
-        width: 21rem;
+        width: 17rem;
         height: 15rem;
     }
     .imagen-tamaño-arrollado, .contenedor-overflow-1{
-        width: 15rem;
+        width: 17rem;
         height: 22rem;
     }
     .imagen-tamaño-pernil1, .contenedor-overflow-5{
-        width: 15rem;
+        width: 17rem;
         height: 23rem;
     }
     .imagen-tamaño-tomate, .contenedor-overflow-2{
-        width: 19rem;
+        width: 17rem;
         height: 15rem;
     }
     .imagen-tamaño-servicio, .contenedor-overflow-7{
-        width: 20rem;
+        width: 17rem;
         height: 14rem;
     }
     .imagen-tamaño-mesa, .contenedor-overflow-6{
-        width: 21rem;
+        width: 17rem;
         height: 16rem;
     }
     .imagen-tamaño-panceta, .contenedor-overflow-9{
-        width: 20rem;
+        width: 17rem;
         height: 16rem;
     }
     
@@ -1352,6 +1319,11 @@ footer{
     .height--titulos--precios{
         height: 7rem;
     }
+    .text--align--center--pasta--375{
+        text-align: center;
+        width: 90%;
+        font-size: 1.1rem;
+    }
     
 }
 
@@ -1382,4 +1354,26 @@ footer{
     
 }
 
+@media(max-width:375px){
+    
+    .height--postres{
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+    .main-menus-interactivos{
+        height: 15rem;
+    }
+
+    .font--montserrat{
+        width: 90%;
+        text-align: center;
+    }
+
+
+}
+    
 

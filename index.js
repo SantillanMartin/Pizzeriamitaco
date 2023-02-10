@@ -1,8 +1,10 @@
 let botonMostrarMenuPizza=document.getElementById('boton-menu-pizza');
 let contenedorDiferentesMenus=document.getElementById('main-contenedor-diferentes-menus');
 let botonMostrarMenuPernil=document.getElementById('boton-menu-pernil');
+let botonMostrarMenuPasta=document.getElementById("boton-menu-pasta");
 let mostrarDisplay=document.getElementById("mostrar-display-pizza-block");
 let mostrarDisplayPernil=document.getElementById("mostrar-display-pernil-flex");
+let mostrarDisplayPasta=document.getElementById("mostrar-display-pasta-flex")
 
 /*BOTONES*/
 
@@ -12,18 +14,37 @@ botonMostrarMenuPizza.onclick=()=>{
     mostrarDisplay.style.display="flex";
     mostrarDisplay.style.flexDirection="column";
     mostrarDisplayPernil.style.display="none";
+    mostrarDisplayPasta.style.display="none";
+    window.scroll(0,2700);
+    scrollearWidth();
     
 }
 
 botonMostrarMenuPernil.onclick=()=>{
+    mostrarDisplayPasta.style.display="none";
     mostrarDisplay.style.display="none";
     mostrarDisplayPernil.style.display="flex";
     mostrarDisplayPernil.style.flexDirection="column";
     window.scroll(0,2700);
+    scrollearWidth();
+    
+}
+
+botonMostrarMenuPasta.onclick=()=>{
+    mostrarDisplay.style.display="none";
+    mostrarDisplayPernil.style.display="none";
+    mostrarDisplayPasta.style.display="flex";
+    mostrarDisplayPasta.style.flexDirection="column";
+    window.scroll(0,2700)
+    scrollearWidth();
+}
+
+
+
+function scrollearWidth(){
     if (window.matchMedia("(max-width: 767px)").matches) {
         window.scroll(0,4500);
       }
-    
 }
 
 
