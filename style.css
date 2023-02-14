@@ -319,7 +319,7 @@ body{
     background-color: #120c0d;
     margin: auto;
     width: 100%;
-    height: 60rem;
+    height: 145rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -870,12 +870,46 @@ body{
 }
 
 .contenedor--lista--puerta{
-    border: solid black;
     width: 90%;
     height: 45rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor--lista--puerta--carnes,.contenedor--lista--puerta--carnes--20,.contenedor--lista--puerta--carnes--10,.contenedor--lista--puerta--carnes--16{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contenedor--lista--puerta--carnes--16{
+    height: 16rem;
+}
+
+.contenedor--lista--puerta--carnes{
+    height: 15rem;
+}
+
+.contenedor--lista--puerta--carnes--20{
+    height: 20rem;
+}
+
+.contenedor--lista--puerta--carnes--10{
+    height: 10rem;
+}
+
+.height--titulo--personas{
+    height: 10rem;
+    border: solid black;
+}
+
+.height--mas--30{
+    height: 5rem;
+    display: flex;
     align-items: center;
 }
 
@@ -887,9 +921,36 @@ body{
     font-weight: 300;
 }
 
-ul li h5{
+ul li h5,ul li h6{
     font-weight: 300;
+    font-size: 1.2rem;
 }
+ul li h6{
+    color: #f19d9d;
+    border-bottom: solid 1px #d6aeae;
+}
+
+.width--pernil--puerta--texto{
+    width: 40rem;
+    text-align: justify;
+}
+
+.contenedor--cocineros{
+    border: solid 1px rgb(172, 172, 172);
+    margin: auto;
+    width: 90%;
+
+}
+
+.titulo--servicio--opcional{
+    display: flex;
+    width: 20rem;
+    margin: auto;
+    height: 8rem;;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 
 /*FOOTER*/
 
@@ -1113,6 +1174,9 @@ footer{
     }
     .contenedor-flex-subgrupo-img-2{
         justify-content: space-evenly;
+    }
+    .contenedor--puerta--party{
+        width: 90%;
     }
 
 }
@@ -1398,6 +1462,9 @@ footer{
     .trademark-estilo{
         font-size: 0.7rem;
         font-weight: bold;
+    }
+    .titulo--servicio--opcional{
+        width: 80%;
     }
     
 }
