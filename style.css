@@ -11,6 +11,8 @@
     --main-bg-color: brown;
     --main-font:'Poppins', sans-serif;
     --color-cream:#f19d9d;
+    --neon-text-color: #f40;
+    --neon-border-color: #08f;
   }
 
 
@@ -38,6 +40,27 @@ body{
     
     
 }
+@keyframes neon {
+    from {
+      text-shadow:
+      0 0 6px rgba(202,228,225,0.92),
+      0 0 30px rgba(202,228,225,0.34),
+      0 0 12px rgba(209, 123, 24, 0.52),
+      0 0 21px rgba(211, 98, 23, 0.92),
+      0 0 34px rgba(207, 127, 35, 0.78),
+      0 0 54px rgba(235, 110, 8, 0.92);
+    }
+    to {
+      text-shadow:
+      0 0 6px rgba(202,228,225,0.98),
+      0 0 30px rgba(202,228,225,0.42),
+      0 0 12px rgba(235, 165, 15, 0.58),
+      0 0 22px rgba(199, 103, 14, 0.84),
+      0 0 38px rgba(242, 97, 30, 0.88),
+      0 0 60px rgb(242, 132, 30);
+    }
+  }
+
 @keyframes fromLeft {
 	0% {
 		transform: translateX(0);
@@ -71,6 +94,31 @@ body{
     }
 }
 
+
+@keyframes neonGlow {
+  0% {
+    text-shadow: 0 0 10px rgba(255,255,255,.8),
+                 0 0 15px rgba(255,255,255,.8),
+                 0 0 20px  rgba(255,255,255,.8),
+                 0 0 30px  rgba(221, 108, 32, 0.8),
+                 0 0 40px  rgba(221, 108, 32, 0.658),
+                 0 0 60px  rgba(221, 108, 32, 0.884),
+                 0 0 80px rgba(221, 108, 32, 0.548),
+                 0 0 100px rgba(233, 119, 43, 0.8),
+                 0 0 120px rgba(207, 102, 32, 0.8);
+  }
+  100% {
+    text-shadow: 0 0 1px rgba(255,255,255,.8),
+                 0 0 2px rgba(255,255,255,.8),
+                 0 0 5px rgba(255,255,255,.8),
+                 0 0 10px rgba(221, 108, 32, 0.8),
+                 0 0 20px rgba(221, 108, 32, 0.623),
+                 0 0 10px rgba(221, 108, 32, 0.63),
+                 0 0 30px rgba(221, 108, 32, 0.8),
+                 0 0 50px rgba(221, 108, 32, 0.521);
+  }
+}
+
 /* ANIMACIONES*/
 .main-from-below{
     animation: fromBelow 2s forwards;
@@ -81,6 +129,11 @@ body{
 }
 .main-fromLeft{
     animation: fromLeft 2s forwards;
+}
+
+.neon{
+    animation: neon .08s ease-in-out infinite alternate;
+    
 }
 
 /*NAV-BAR*/
@@ -114,9 +167,7 @@ body{
 
 /*-------------------*/
 
-.nav-background-inicio{
-    background-image:url(./images/chili-fondo.jpg);
-}
+
 .nav--contenedor--flex{
     display: flex;
     justify-content: space-around;
@@ -214,17 +265,20 @@ body{
 
 /*SECCION MAIN */
 
-
+.fondo--index{
+    background-image: url(./images/chili-fondo.jpg);
+    background-repeat: no-repeat;
+}
 
 .main-inicio{
     
-    height: 39.1rem;
+    height: 34.1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(./images/chili-fondo.jpg);
+    /*background-image: url(./images/chili-fondo.jpg);
     background-size: 100vw 100vh;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     
     
 }
@@ -632,12 +686,12 @@ body{
 
 .parrafo-disclaimer{
     width: 90%;
-    text-align: center;
+    text-align: j;
     font-style: italic;
     font-weight: 500;
     color: rgb(90, 90, 90);
     font-family: 'Asap', sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 
 .widht--80{
@@ -979,7 +1033,7 @@ ul li h6{
 
 footer{
     width: 100%;
-    height: 22rem;
+    height: 16rem;
     background-image:url(./images/tomato-2780424_1920.jpg);
     background-size:cover;
     background-repeat: no-repeat;
@@ -1069,22 +1123,51 @@ footer{
 
 /*PREFOOTER*/
 
-.prefooter{
+.pagos{
     width: 100%;
-    height: auto;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(184, 173, 173);
+    margin-top: 5rem;
+}
+
+.lista--pagos{
+    width: 60%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
     
 }
 
-
-.prefooter-lista{
-    list-style: none;
+.contenedor--pagos--titulo{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
 }
 
-.prefooter--tamaño--logos{
-    width: 8rem;
+.tamaño--img--pagos{
+    width: 6rem;
+    height: 6rem;
 }
 
+.tamaño--mercado{
+    width: 10rem;
+    height: 10rem;
+}
+
+.tamaño--img--mastercard{
+    width: 9rem;
+    height: 5rem;
+}
+
+.pagos--titulo{
+    color: rgb(87, 84, 84);
+    font-weight: 300;
+}
 
 
 /*MEDIA QUERIES*/
@@ -1201,6 +1284,15 @@ footer{
     .contenedor--puerta--party{
         width: 90%;
     }
+    .contenedor--pagos--titulo{
+        flex-direction: column;
+    }
+    .pagos{
+        height: 15rem;
+    }
+    .lista--pagos{
+        width: 95%;
+    }
 
 }
 
@@ -1277,6 +1369,14 @@ footer{
         width: 4rem;
         height: 4rem;
     }
+    .tamaño--img--pagos{
+        width: 5rem;
+        height: 5rem;
+    }
+    .tamaño--img--mastercard{
+        width: 5rem;
+        height: 3rem;
+    }
     
 }
 
@@ -1344,6 +1444,9 @@ footer{
     }
     .d-flex-direction-column{
         flex-direction: column;
+    }
+    .lista--pagos{
+        flex-wrap: wrap;
     }
 }
 
@@ -1501,6 +1604,9 @@ footer{
     }
     .font--montserrat{
         font-size: 0.9rem;
+    }
+    .pagos{
+        height: 23rem;
     }
     
 }
