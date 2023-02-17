@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@200;300;400;500&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
 :root {
     --main-bg-color: brown;
     --main-font:'Poppins', sans-serif;
@@ -1029,6 +1030,141 @@ ul li h6{
 }
 
 
+
+/* SECCION NOSOTROS*/
+.fade-in-bottom{
+	animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.fade-in-right {
+	animation: fade-in-right 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.text-focus-in {
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@keyframes fade-in-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-right {
+    0% {
+      transform: translateX(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+@keyframes text-focus-in {
+    0% {
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+    
+
+
+.background--nosotros{
+    background-color:#F4F4F4;
+}
+
+
+
+.main--nosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 68rem;
+    width: 100%;
+    background-color: black;
+    
+}
+
+.main--nosotros--contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 42rem;
+    border: solid 1px rgb(187, 179, 179);
+    border-radius: 0.4rem;
+    box-shadow: 1px 0px 5px rgb(70, 68, 68);
+    background-color: white;
+}
+
+.main--titulo--subtitulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: justify;
+    
+}
+
+
+.main--titulo--subtitulo h2{
+    font-size: 1rem;
+}
+
+.main--titulo--subtitulo h1{
+    font-size: 2rem;
+}
+
+.main--titulo--subtitulo p{
+    line-height: 1.65rem;
+}
+
+.font--gilda{
+    font-family: 'Gilda Display', serif;
+}
+
+.font--weight--600{
+    font-weight: 600;
+    font-family: 'Asap';
+}
+
+.tamaño--img--dueños{
+    width: 32rem;
+    height: 22rem;
+    border-radius: 0.2rem;
+    box-shadow: 1px 0px 5px rgb(148, 144, 144);
+}
+
+.main--nosotros--pie{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10.2rem;
+    
+    
+}
+
+.imagen-tamaño-corazon{
+    width: 2rem;
+    height: 2rem;
+}
+
+.span--ustedes{
+    color:rgb(82, 77, 77);
+    font-family: 'Asap';
+    font-style: italic;
+}
+
+
 /*FOOTER*/
 
 footer{
@@ -1189,6 +1325,9 @@ footer{
     .contenedor-flex-subgrupo-img-3{
         height: 45rem;
     }
+    .main--nosotros--contenedor{
+        width: 95%;
+    }
 }
 
 
@@ -1222,6 +1361,11 @@ footer{
         background-color: rgba(255, 255, 255, 0.671);
         border-radius: 0.4rem;
     }
+    .tamaño--img--dueños{
+        width: 25rem;
+        height: 19rem;
+    }
+    
 }
 
 
@@ -1357,6 +1501,23 @@ footer{
         width: 90%;
         margin: auto;
     }
+    .main--nosotros{
+        height: 100rem;
+    }
+    .main--nosotros--contenedor{
+        flex-direction: column;
+        justify-content:space-evenly;
+        width: 90%;
+        height: 70rem;
+    }
+    .main--titulo--subtitulo{
+        width: 80%;
+    }
+    .tamaño--img--dueños{
+        width: 32rem;
+        height: 22rem;
+    }
+    
     
 }
 
@@ -1410,6 +1571,9 @@ footer{
     .height--titulo--entrada{
         height: 20%;
     }
+    .main--nosotros--contenedor{
+        height: 85rem;
+    }
 }
 
 @media(max-width:670px){
@@ -1447,6 +1611,9 @@ footer{
     }
     .lista--pagos{
         flex-wrap: wrap;
+    }
+    .tamaño--img--dueños{
+        width: 90%;
     }
 }
 
@@ -1608,6 +1775,16 @@ footer{
     .pagos{
         height: 23rem;
     }
+    .main--nosotros{
+        height: 120rem;
+    }
+    .main--nosotros--contenedor{
+        height: 100rem;
+    }
+    .main--titulo--subtitulo h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
     
 }
 
@@ -1640,6 +1817,9 @@ footer{
     }
     .height--mas--30{
         height: 9rem;
+    }
+    .tamaño--img--dueños {
+        height: 15rem;
     }
     
 }
