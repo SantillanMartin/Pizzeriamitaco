@@ -5,7 +5,7 @@
     $mensaje=$_POST["mensaje"];
     $contenido="Nombre: ".$nombre ."\nCorreo: ".$correo ."\nmensaje: ".$mensaje;
     mail($destino,"Informacion Catering",$contenido); 
-    header("Location:contacto.html");
+    
 
 
 
