@@ -1032,6 +1032,8 @@ ul li h6{
 
 
 /* SECCION NOSOTROS*/
+
+
 .fade-in-bottom{
 	animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
@@ -1043,12 +1045,8 @@ ul li h6{
 	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
-/*PAGINA CONTACTO*/
 
-.formulario{
-    width: 80%;
-    max-width: 1500px;
-}
+
 
 @keyframes fade-in-bottom {
     0% {
@@ -1084,17 +1082,47 @@ ul li h6{
     
 
 
+
+
+
 .background--nosotros{
     background-color:#e6e6e6;
+}
+
+.carrusel--nosotros{
+    
+    width: 100%;
+}
+
+.carrusel--items{
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+.carrusel--item{
+    min-width: 340px;
+    max-width:340px;
+    height: 300px;
+    padding: 0.2rem;
+}
+
+.carrusel--item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.3rem;
+    border: solid gray 1px;
 }
 
 
 
 .main--nosotros{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    height: 68rem;
+    height: 80rem;
     width: 100%;
     background-color: rgb(27, 27, 27);
     
@@ -1170,6 +1198,15 @@ ul li h6{
     font-family: 'Asap';
     font-style: italic;
 }
+
+/*PAGINA CONTACTO*/
+
+.formulario{
+    width: 80%;
+    max-width: 1500px;
+}
+
+
 
 
 /*FOOTER*/
