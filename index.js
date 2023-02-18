@@ -7,6 +7,8 @@ let mostrarDisplay=document.getElementById("mostrar-display-pizza-block");
 let mostrarDisplayPernil=document.getElementById("mostrar-display-pernil-flex");
 let mostrarDisplayPasta=document.getElementById("mostrar-display-pasta-flex")
 let mostrarDisplayPuerta=document.getElementById("mostrar-display-puerta-flex");
+let textArea=document.getElementById("floatingTextarea");
+
 
 /*BOTONES*/
 
@@ -71,3 +73,5 @@ function mostrarMenuPizzaParty(){
     contenedorDiferentesMenus.append(menuPartyPizza);
     window.scroll(0,5000);
 }
+
+

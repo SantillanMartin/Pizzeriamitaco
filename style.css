@@ -687,7 +687,7 @@ body{
 
 .parrafo-disclaimer{
     width: 90%;
-    text-align: j;
+    text-align: center;
     font-style: italic;
     font-weight: 500;
     color: rgb(90, 90, 90);
@@ -1043,6 +1043,13 @@ ul li h6{
 	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
+/*PAGINA CONTACTO*/
+
+.formulario{
+    width: 80%;
+    max-width: 1500px;
+}
+
 @keyframes fade-in-bottom {
     0% {
       transform: translateY(50px);
@@ -1078,7 +1085,7 @@ ul li h6{
 
 
 .background--nosotros{
-    background-color:#F4F4F4;
+    background-color:#e6e6e6;
 }
 
 
@@ -1089,7 +1096,7 @@ ul li h6{
     align-items: center;
     height: 68rem;
     width: 100%;
-    background-color: black;
+    background-color: rgb(27, 27, 27);
     
 }
 
@@ -1253,7 +1260,7 @@ footer{
 .trademark-estilo{
     font-weight: 400;
     font-size: .95rem;
-    color: rgb(0, 0, 0);
+    color: #ffffff;
     
 }
 
@@ -1645,6 +1652,14 @@ footer{
     .footer-contenedor{
         justify-content: space-evenly;
     }
+    .footer-redes-img--tamaño{
+        width: 2rem;
+        height: 2rem;
+    }
+    .logo-pizzeria--tamaño{
+        width: 3rem;
+        height: 3rem;
+    }
     .flex--550px{
         text-align: center;
         
@@ -1806,7 +1821,7 @@ footer{
         font-size: 1rem;
     }
     .font--weight--200{
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
     .trademark-estilo{
         font-size: 0.7rem;
