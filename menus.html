@@ -10,50 +10,64 @@
     <link rel="icon" href="./images/pizza-icon.ico">
 </head>
 <body class="background-menus">
+  <header class="fondo--header">
     <nav class="nav--contenedor--flex flex--550px">
       
-        <section class="nav--logo">
-          <a class="navbar-brand" href="index.html"><img class="logo-pizzeria" src="./images/logo-pizzeria.jpeg" alt="PizzeriaMitaco"></a>
-          <h1 class="font--aclonica title-weight nav--weight color-redtomato text-focus-in">COCINA & CATERING</h1>
-        </section>
-        <section class="header__nav">
-          <label for="btn-hamburguesa" class="header__label">
-              <img src="./images/menu.png" alt="menu hanburguesa" class="header__imagen__hamburguesa">
-          </label>
-          <input type="checkbox" id="btn-hamburguesa" class="header__hamburguesa">   
-              <ul class="header__nav__lista ">
+      <section class="nav--logo">
+        <a class="navbar-brand" href="index.html"><img class="logo-pizzeria" src="./images/logo-pizzeria.jpeg" alt="PizzeriaMitaco"></a>
+        <h1 class="font--aclonica title-weight nav--weight color-redtomato text-focus-in">COCINA & CATERING</h1>
+      </section>
+      <section class="header__nav">
+        <label for="btn-hamburguesa" class="header__label">
+          <img src="./images/barra-de-menus.png" alt="menu hanburguesa" class="header__imagen__hamburguesa">
+        </label>
+        <input type="checkbox" id="btn-hamburguesa" class="header__hamburguesa">   
+            <ul class="header__nav__lista ">
+              
+                <li class="d-flex">
+                  <a class="nav--weight color-darkgreen" aria-current="page" href="./index.html">Inicio</a>
+                  <img src="./images/tomato.png" class="tamaño-img-nav-sub" alt="tomato">
+                  
+                  
+                </li>
                 
-                  <li class="d-flex">
-                    <a class="nav--weight color-darkgreen" aria-current="page" href="./index.html">Inicio</a>
-                    <img src="./images/tomato.png" class="tamaño-img-nav-sub" alt="tomato">
-                    
-                    
-                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav--weight color-redtomato" href="./menus.html" role="button"  aria-expanded="false">
+                    Nuestros Menús
+                  </a>
+                  <img src="./images/aceituna.png" class="tamaño-img-nav-sub" alt="aceituna">
                   
-                  <li class="nav-item dropdown">
-                    <a class="nav--weight color-redtomato" href="./menus.html" role="button"  aria-expanded="false">
-                      Nuestros Menús
+                </li>
+                <li class="nav-item">
+                  <a href="./nosotros.html" class="nav--weight color-redtomato">Acerca de Nosotros</a>
+                  <img src="./images/queso.png" class="tamaño-img-nav-sub" alt="cheese slice">
+                </li>
+                <li class="nav-item">
+                  <a href="./contacto.html">
+                    <button class="header-nav-boton nav--weight color-button-menus">Contacto</button>
                     </a>
-                    <img src="./images/aceituna.png" class="tamaño-img-nav-sub" alt="aceituna">
-                    
-                  </li>
-                  <li class="nav-item">
-                    <a href="./nosotros.html" class="nav--weight color-redtomato">Acerca de Nosotros</a>
-                    <img src="./images/queso.png" class="tamaño-img-nav-sub" alt="cheese slice">
-                  </li>
-                  <li class="nav-item">
-                    <a href="./contacto.html">
-                      <button class="header-nav-boton nav--weight color-button-menus">Contacto</button>
-                      </a>
-                  </li>
-                </ul>
-                  
+                </li>
               </ul>
-      
-          </section>
-        </nav>
+                
+            </ul>
+    
+        </section>
+      </nav>
+      <section class="main-menus--titulo--descripcion">
+        <div class="contenedor--titulo--descripcion">
+          <img src="./images/pizzita-icon.png" class="minipizza-icono-tamaño" alt="pizzita pizza mi taco">
+          <h1 class="main-titulo-principal color--olive fade-in-bottom">¿Qué ofrecemos?</h1>
+          <p class="main-menus-parrafo slide-left">En <span class="color-redtomato">Pizzá Mi Taco</span>  brindamos servicio para eventos formales como informales, 
+            aqui encontraran entre las opciones de menús:<span class="color-redtomato"> Pizza Party, Pernil Party & Pasta Party.</span>
+            Ademas ofrecemos servicio <span class="color-redtomato">puerta a puerta</span>, que puede incluir si lo desea tanto mozos y cocineros por
+            un costo adicional.
+          </p>
+        </div>   
+    </section>
+  </header>  
+  
           <main class="main-menus">
-            
+            <!--
               <section class="main-menus--titulo--descripcion main-from-below">
                   <div class="contenedor--titulo--descripcion">
                     <img src="./images/pizzita-icon.png" class="minipizza-icono-tamaño" alt="pizzita pizza mi taco">
@@ -65,11 +79,11 @@
                     </p>
                   </div>   
               </section>
-            
-            
-            <section>
+            -->
               
-            </section>
+            
+            
+            
             <section class="main-galeria">
               
               <div class="d-flex justify-content-evenly align-items-center contenedor-grupo-imagenes">

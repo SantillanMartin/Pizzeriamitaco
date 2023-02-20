@@ -121,7 +121,21 @@ body{
   }
 }
 
+ @keyframes slide-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100px);
+    }
+  }
+  
+
 /* ANIMACIONES*/
+.slide-left {
+	animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
 .main-from-below{
     animation: fromBelow 2s forwards;
 }
@@ -350,6 +364,12 @@ body{
 }
 
 /*PAGINA DE MENUS*/
+.fondo--header{
+    background-image: url(./images/pizza-3010062_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .background-pizzaparty,.background--pernilparty,.background--puerta{
     margin: auto;
     background-color: #120c0d;
@@ -415,12 +435,12 @@ body{
 }
 
 .main-menus--titulo--descripcion{
-    background-image: url(./images/pizza-3010062_1280.jpg);
+    /*background-image: url(./images/pizza-3010062_1280.jpg);*/
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
     width: 100%;
     height: 30rem;
-    box-shadow: -1px 1px 5px rgb(136, 134, 134);
+    
 }
 
 .contenedor--titulo--descripcion{
@@ -432,12 +452,14 @@ body{
 }
 
 .main-menus-parrafo{
-    text-align: center;
-    width: 45rem;
+    text-align: justify;
+    padding: 0.6rem;
+    width: 50rem;
     border-radius:1rem;
     color:black;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1.16rem;
+    background-color: rgba(255, 255, 255, 0.89);
 }
 
 .main-menus-parrafo-opciones{
@@ -1087,7 +1109,9 @@ ul li h6{
 
 
 .background--nosotros{
-    background-color:#e6e6e6;
+    background-image:url(./images/nosotros/fondo-blanco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .carrusel--nosotros{
@@ -1098,11 +1122,11 @@ ul li h6{
 
 .carrusel--items{
     display: flex;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow: hidden;
     width: 90%;
     box-shadow: 0px 1px 10px rgb(88, 86, 86);
-    border-radius: 0.2rem;
+    border-radius: 0.5rem;
+    
 }
 
 .carrusel--item{
@@ -1111,6 +1135,7 @@ ul li h6{
     height: 300px;
     transition: 0.2s;
     overflow: hidden;
+    
 
     
 }
@@ -1139,7 +1164,7 @@ ul li h6{
     align-items: center;
     height: 80rem;
     width: 100%;
-    background-color: rgb(27, 27, 27);
+    
     
 }
 
@@ -1415,10 +1440,7 @@ footer{
     }
     .main-menus-parrafo{
         width: 90%;
-        text-align: center;
         height: 20rem;
-        background-color: rgba(255, 255, 255, 0.671);
-        border-radius: 0.4rem;
     }
     .tamaño--img--dueños{
         width: 25rem;
@@ -1630,6 +1652,9 @@ footer{
     .height--titulo--entrada{
         height: 20%;
     }
+    .main--nosotros{
+        height: 125rem;
+    }
     .main--nosotros--contenedor{
         height: 85rem;
     }
@@ -1708,10 +1733,6 @@ footer{
         width: 2rem;
         height: 2rem;
     }
-    .logo-pizzeria--tamaño{
-        width: 3rem;
-        height: 3rem;
-    }
     .flex--550px{
         text-align: center;
         
@@ -1721,8 +1742,8 @@ footer{
         font-size: 0.8rem;
     }
     .logo-pizzeria{
-        width: 4rem;
-        height: 4rem;
+        width: 3rem;
+        height: 3rem;
     }
     .main-menus-parrafo{
         font-size: 1rem;
@@ -1842,9 +1863,6 @@ footer{
     .pagos{
         height: 23rem;
     }
-    .main--nosotros{
-        height: 120rem;
-    }
     .main--nosotros--contenedor{
         height: 100rem;
     }
@@ -1887,6 +1905,9 @@ footer{
     }
     .tamaño--img--dueños {
         height: 15rem;
+    }
+    .carrusel--item{
+        height: 220px;
     }
     
 }
