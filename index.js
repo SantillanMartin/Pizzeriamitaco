@@ -20,7 +20,7 @@ botonMostrarMenuPizza.onclick=()=>{
     mostrarDisplayPuerta.style.display="none";
     mostrarDisplayPernil.style.display="none";
     mostrarDisplayPasta.style.display="none";
-    window.scroll(0,2700);
+    window.scroll(0,1500);
     scrollearWidth();
     
 }
@@ -31,7 +31,7 @@ botonMostrarMenuPernil.onclick=()=>{
     mostrarDisplayPuerta.style.display="none";
     mostrarDisplayPernil.style.display="flex";
     mostrarDisplayPernil.style.flexDirection="column";
-    window.scroll(0,2700);
+    window.scroll(0,1500);
     scrollearWidth();
     
 }
@@ -42,7 +42,7 @@ botonMostrarMenuPasta.onclick=()=>{
     mostrarDisplayPuerta.style.display="none";
     mostrarDisplayPasta.style.display="flex";
     mostrarDisplayPasta.style.flexDirection="column";
-    window.scroll(0,2700)
+    window.scroll(0,1500);
     scrollearWidth();
 }
 
@@ -51,7 +51,7 @@ botonMostrarMenuPuerta.onclick=()=>{
     mostrarDisplayPernil.style.display="none";
     mostrarDisplayPasta.style.display="none";
     mostrarDisplayPuerta.style.display="flex";
-    window.scroll(0,2700)
+    window.scroll(0,1500);
     scrollearWidth();
 }
 
@@ -59,18 +59,6 @@ botonMostrarMenuPuerta.onclick=()=>{
 
 function scrollearWidth(){
     if (window.matchMedia("(max-width: 767px)").matches) {
-        window.scroll(0,4500);
+        window.scroll(0,1000);
       }
 }
-
-
-
-function mostrarMenuPizzaParty(){
-    contenedorDiferentesMenus.innerHTML="";
-    menuPartyPizza=document.createElement('div');
-    menuPartyPizza.innerHTML="<section><h3>Como en casa</h3><h3>Pizzá Mi Taco</h3><h3>Premiun</h3></section>";
-    menuPartyPizza.className="menu-party-pizza";
-    contenedorDiferentesMenus.append(menuPartyPizza);
-    window.scroll(0,5000);
-}
-
