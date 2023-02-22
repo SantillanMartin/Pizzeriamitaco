@@ -401,13 +401,14 @@ body{
 }
 
 .background--pernilparty{
-    height: 65rem;
+    height: 75rem;
     width: 60rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
+
 
 .background-menus{
     background-color: #e9e9e9;
@@ -594,9 +595,10 @@ body{
 }
 
 .height-parrafo-pizzaParty{
-    height: 10rem;
+    
     height: 57rem;
-    display: flex;   
+    display: flex;
+    width: 100%;  
 }
 
 .height-parrafo-pizzaParty--contenedor{
@@ -768,17 +770,28 @@ body{
 }
 
 .contenedor--postre{
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 
 .font--montserrat{
     font-family: 'Asap', sans-serif;
-    
 
 }
 
-.font--montserrat li{
-    font-family: 'Asap', sans-serif;
+
+.font--montserrat li {
+    text-align: justify;
+    font-size: 1rem;
+    width: 90%;
+    margin: auto;
+    
+}
+
+.subtitulo--gustos{
+    
+    width: 20rem;
+    text-align: center;
+    font-weight: 200;
 }
 
 .width--80percent {
@@ -1190,14 +1203,32 @@ ul li h6{
 }
 
 .main--contacto{
-    margin: 2rem 0;
+    margin: 3rem 0;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 35rem;
+    height: 48rem;
     justify-content: center;
     align-items: center;
     
+}
+
+.main--mapa h5{
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.76);
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+    height: 3rem;
+    
+}
+
+iframe{
+    border-radius: 0.4rem;
+    box-shadow: -1px 1px 10px rgb(70, 70, 70);
 }
 
 
@@ -1374,15 +1405,11 @@ footer{
 }
 
 
+
 /*MEDIA QUERIES*/
 
 @media(max-width:1700px){
-    .contenedor-grupo-imagenes{
-        flex-wrap: wrap;
-    }
-    .imagen-tamaño-arrollado, .contenedor-overflow-1,.contenedor-flex-subgrupo-img-2{
-        margin-bottom: 3rem;
-    }
+   
     .main-galeria{
         width: 95%;
     }
@@ -1414,7 +1441,30 @@ footer{
         width: 95%;
         margin: auto;
     }
+    
 
+}
+
+
+
+@media(min-width:1300px){
+    .height-parrafo-pizzaParty-sabores{
+        justify-content: space-between;
+        
+    }
+    .background--cadapizza{
+        width: 25rem;
+        border: solid;
+        height: 25rem;
+        
+    }
+    .height--pernil{
+        height: 4rem;
+        border: none;
+    }
+    
+    
+    
 }
 
 @media(max-width:1300px){
@@ -1429,6 +1479,26 @@ footer{
     .tamaño--img--dueños{
         width: 25rem;
         height: 19rem;
+    }
+    .height-parrafo-pizzaParty{
+        height: 157rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .background-pizzaparty{
+        
+        height: auto;
+    }
+    .font--montserrat li {
+        text-align: justify;
+        border: solid 1px #f1d4d4;
+        width: 45rem;
+        margin: auto;
+        padding: 0.4rem;
+    }
+    .border--none{
+        border: none;
     }
     
 }
@@ -1612,27 +1682,14 @@ footer{
         width: 5rem;
         height: 3rem;
     }
+    .font--montserrat li {
+        width: 30rem;
+    }
     
 }
 
 @media(max-width:793px){
-    .height-parrafo-pizzaParty{
-        height: 157rem;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .background-pizzaparty{
-        
-        height: auto;
-    }
-    .font--montserrat li {
-        text-align: justify;
-        border: solid 1px #f1d4d4;
-        width: 90%;
-        margin: auto;
-        padding: 0.4rem;
-    }
+    
     .parrafo-disclaimer{
         font-size: 1.1rem;
     }
@@ -1841,6 +1898,29 @@ footer{
         width: 3rem;
         height: 3rem;
     }
+    .subtitulo--gustos{
+        font-size: 1rem;
+        width: 70%;
+    }
+    .font--montserrat li{
+        width: 25rem;
+    }
+    .main--mapa{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .main--mapa h5{
+        width: 18rem;
+        font-size: 1rem;
+    }
+
+    iframe{
+        width: 90%;
+        height: 15rem;
+        margin: auto;
+    }
     
 }
 
@@ -1879,6 +1959,9 @@ footer{
     }
     .carrusel--item{
         height: 220px;
+    }
+    .font--montserrat li{
+        width: 16rem;
     }
     
 }
