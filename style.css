@@ -1294,14 +1294,12 @@ footer{
 
 .footer-redes{
     width: 30%;
-    
     height: 3rem;
     align-items: center;
     justify-content: center;
 }
 
 .tamaño--contacto--redes{
-   
    display: flex;
    align-items: center;
    justify-content: center;
@@ -1310,10 +1308,8 @@ footer{
    width: 100%;
 }
 
-.footer--contenedor--faceinsta{
-    
+.footer--contenedor--faceinsta{    
     width: 15rem;
-    
 }
 
 .logo-pizzeria--tamaño{
@@ -1335,10 +1331,16 @@ footer{
     background-color: #000000c9;
     display: flex;
     width: 100%;
+}
+
+.height--trademark{
+    height: 4rem;
     
 }
 
-
+.estilo--marca{
+    font-size: 0.9rem;
+}
 
 .font--weight--200{
     font-weight: lighter;
@@ -1350,8 +1352,6 @@ footer{
 .trademark-estilo{
     font-weight: 400;
     font-size: .95rem;
-    
-    
 }
 
 /*PREFOOTER*/
@@ -1724,7 +1724,7 @@ footer{
         flex-wrap: wrap;
     }
     footer{
-        height: 20rem;
+        height: 23rem;
     }
     .main-menus-interactivos{
         width: 90%;
@@ -1920,6 +1920,9 @@ footer{
         width: 90%;
         height: 15rem;
         margin: auto;
+    }
+    .estilo--marca{
+        font-size: 0.6rem;
     }
     
 }
